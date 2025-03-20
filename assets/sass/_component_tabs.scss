@@ -1,0 +1,62 @@
+.tabs-container {
+  width: 100%;
+
+  /* Barra de navegación de las pestañas */
+  .tabs-nav {
+    gap: 1rem;    
+    padding: 10px;
+
+    .tabs-buttons {
+      display: flex;      
+      flex-direction: column;
+
+      .tab {
+        padding: 10px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+      }      
+    }    
+  } 
+
+  /* Contenido de las pestañas */
+  .tab-content {
+    display: none;
+
+    &.active {display: block;}    
+    .tab-body {padding-top: 20px;}       
+  }    
+
+}
+  
+/* Ajustes para pantallas más grandes */
+@media (min-width: 768px) {
+  .tabs-container {
+    .tabs-nav {
+      padding: 0px 20px 0px 0px;
+  
+      .tabs-buttons {
+        margin-bottom: 0px;
+        flex-direction: row;        
+      }      
+  
+    }
+  }
+
+}
+
+/*=> 1024px Igual o mayor a 1024px se aplicarán los siguientes estilos */
+@media (min-width: 1024px) {}
+
+/* ==========================
+Colour theme
+========================== */
+.default-theme .tabs-container {background-color: $primary-color;}
+.default-theme .tabs-nav {background-color: $primary-color;}
+.default-theme .tab {color:$fourth-color;}
+.default-theme .tab:hover {
+  color:$sixty-color;
+}
+.default-theme .tab.active {
+  color:$sixty-color;
+  border-bottom:2px solid $highlight-color;
+}

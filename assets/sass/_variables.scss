@@ -1,0 +1,24 @@
+/* Imported files and fonts */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+/*Variables scss  */
+/*Fonts*/
+$primary-font:"Montserrat", serif;
+$secondary-font:"Inter", sans-serif;
+
+/*Colors*/
+$primary-color: #ffffff;
+$secondary-color: #ebf5f8;
+$tertiary-color: #d5e5f7; 
+$fourth-color: #7a96e6;
+$fifth-color: #434c75;
+$sixty-color: #24354b;
+$seventy-color: red; /*Revisar donde se usa*/
+$primary-text-color:#051425;
+/*No cambian*/
+$white-color:#ffffff;
+$highlight-color:#0F4C95;
+$success-color:#4CAF50;
+$warning-color:#e7b246;
+$danger-color:#b92214;

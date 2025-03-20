@@ -1,0 +1,29 @@
+/*Base*/
+@import 'variables';
+@import 'styles';
+@import 'utilities';
+@import 'grid';
+@import 'flexbox';
+/*Layout*/
+@import 'layout_audio';
+@import 'layout_sidebar';
+/*Components*/
+@import 'nav_secondary_menu';
+/*Navs*/
+@import 'component_table';
+@import 'component_form';
+@import 'component_multiple_select';
+@import 'component_buttons';
+@import 'component_alerts';
+@import 'component_switch';
+@import 'component_card';
+@import 'component_tabs';
+@import 'tabs_content';
+@import 'component_modal';
+@import 'component_gallery';
+@import 'component_pagination_area';
+@import 'component_tooltip';
+@import 'component_accordion';
+@import 'component_labels';
+@import 'component_loader';
+//@import 'nav_standar_navbar'; /*Navbar stándar para sitios web normales*/
