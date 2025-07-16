@@ -4517,34 +4517,19 @@ Tabletas horizontales*/
 /* ==============================================
 # Pagination area
 ============================================== */
-.pagination-area {
-  display: flex;
-  flex-direction: column;
-  gap: 1rem;
-  /*News*/
-  /* Pagination */
-}
-.pagination-area .news {
-  display: flex;
-  align-items: center;
-  gap: 1rem;
-  justify-content: center;
-}
-.pagination-area .news .form-control {
-  width: 80px;
-}
-.pagination-area .pagination {
+/* Pagination */
+.pagination {
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 1rem;
 }
-.pagination-area .pagination ul {
+.pagination ul {
   display: flex;
   gap: 0.25rem;
 }
-.pagination-area .pagination ul a,
-.pagination-area .pagination ul strong {
+.pagination ul a,
+.pagination ul strong {
   display: block;
   padding: 8px 15px;
   background-color: #ffffff;
@@ -4555,11 +4540,11 @@ Tabletas horizontales*/
   border-radius: 0.3rem;
   transition: background-color 0.5s ease, color 0.5s ease;
 }
-.pagination-area .pagination ul a:hover {
+.pagination ul a:hover {
   background-color: #accef7;
   border: 1px solid #1464c3;
 }
-.pagination-area .pagination ul .current * {
+.pagination ul .current * {
   background-color: #1464c3;
   color: #ffffff;
   border: 1px solid #1464c3;
@@ -4569,26 +4554,7 @@ Tabletas horizontales*/
 /*A partir de 768px se aplicarán estos estilos => 768px
 Tabletas verticales o celulares horizontales*/
 @media (min-width: 768px) {
-  /* # Pagination-Área */
-  .pagination-area {
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: end;
-  }
-  .pagination-area .news {
-    align-items: center;
-    gap: 1rem;
-  }
-  .pagination-area .news .orden-item {
-    display: flex;
-    align-items: center;
-    cursor: pointer;
-    font-size: 0.875rem;
-  }
-  .pagination-area .news .orden-item i {
-    margin-left: 5px;
-  }
-  .pagination-area .pagination {
+  .pagination {
     flex-direction: column;
     gap: 0.5rem;
   }
@@ -4596,8 +4562,7 @@ Tabletas verticales o celulares horizontales*/
 /*A partir de 1024px se aplicarán estos estilos => 1024px
 Tabletas horizontales*/
 @media (min-width: 1024px) {
-  /* # Pagination-Área */
-  .pagination-area .pagination {
+  .pagination {
     flex-direction: row;
   }
 }
